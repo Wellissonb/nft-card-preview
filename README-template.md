@@ -7,7 +7,7 @@
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/Wellissonb/nft-card-preview)
-- Live Site URL: [Add live site URL here](https://wellissonb.github.io/Order-summary-card/)
+- Live Site URL: [Add live site URL here](https://wellissonb.github.io/nft-card-preview/)
 
 
 
