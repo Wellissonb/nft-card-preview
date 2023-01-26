@@ -41,23 +41,37 @@ main{
 }
 
 
-#imagem{
+#imagem {
     background-image: url(../images/image-equilibrium.jpg);
-    background-position: center center;
     background-size: cover;
-    height: 280px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 100%;
-   
-    transition-duration: .5s;
+    height: 100%;
+    position: relative;
+    background-position: center center;
+    overflow: hidden;
     border-radius: 10px;
 }
 
+#fundo {
+    position: relative;
+    height: 270px;
+    background-color: var(--Cyan);
+    border-radius: 12px;
+}
+
+#olho {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    z-index: -1;
+}
+
+
 #imagem:hover{
-    opacity: 0.5;
-    back
+    opacity: .4;
+    transition-duration: 1.5s;
 }
 
 h1{
