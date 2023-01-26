@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Outfit', sans-serif;
+}
+
+
+
+:root{
+    --Softblue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+
+    --VerydarkbluemainBG: hsl(217, 54%, 11%);
+    --Verydarkblue-cardBG: hsl(216, 50%, 16%);
+    --Verydarkblue-line: hsl(215, 32%, 27%);
+}
+
+body{
+    width: 98vw;
+    height: 97vh;
+    background-color: var(--VerydarkbluemainBG);
+}
+
+main{
+    position: relative;
+    top: 50%;
+    left: 50%;
+
+    background-color: var(--Verydarkblue-cardBG);
+    width: 282px;
+    padding: 25px;
+    border-radius: 15px;
+    
+    overflow: hidden;
+
+    transform: translate(-50%, -50%);
+}
+
+
+#imagem{
+    background-image: url(../images/image-equilibrium.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+   
+    transition-duration: .5s;
+    border-radius: 10px;
+}
+
+#imagem:hover{
+    opacity: 0.5;
+    back
+}
+
+h1{
+    margin-top: 25px;
+    color: white;
+    font-weight: 600;
+}   
+
+h1:hover{
+    color: cyan;
+    transition: .5s;
+}
+
+p{
+    font-size: 18px;
+    color: var(--Softblue);
+
+}
+#sobre{
+    margin: 20px 0px;
+    line-height: 28px;
+    font-weight: 300;
+}
+
+.valor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
+}
+
+.icones{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.icones > p#ether{
+    color: ;
+}
+
+#line{
+    border: none;
+    background-color: black;
+    border: 1px solid var(--Verydarkblue-line);
+    margin: 20px 0px;
+}
+
+#jules{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#avatar{
+    width: 40px;
+}
+
+#perfil-do-jules{
+    text-decoration: none;
+    color: white;
+}
+
+#perfil-do-jules:hover{
+    color: cyan;
+    transition: .5s;
+}
